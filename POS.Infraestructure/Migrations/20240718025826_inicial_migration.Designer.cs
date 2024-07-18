@@ -12,8 +12,8 @@ using POS.Infraestructure.Persistences.Contexts;
 namespace POS.Infraestructure.Migrations
 {
     [DbContext(typeof(PosContext))]
-    [Migration("20240626184846_Initial")]
-    partial class Initial
+    [Migration("20240718025826_inicial_migration")]
+    partial class inicial_migration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -21,7 +21,7 @@ namespace POS.Infraestructure.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .UseCollation("Moder_Spanish_CI_AS")
-                .HasAnnotation("ProductVersion", "8.0.6")
+                .HasAnnotation("ProductVersion", "8.0.7")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);

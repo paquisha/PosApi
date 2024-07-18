@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace POS.Infraestructure.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class inicial_migration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
