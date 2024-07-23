@@ -12,8 +12,8 @@ using POS.Infraestructure.Persistences.Contexts;
 namespace POS.Infraestructure.Migrations
 {
     [DbContext(typeof(PosContext))]
-    [Migration("20240718025826_inicial_migration")]
-    partial class inicial_migration
+    [Migration("20240723022639_primera_migracion")]
+    partial class primera_migracion
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
