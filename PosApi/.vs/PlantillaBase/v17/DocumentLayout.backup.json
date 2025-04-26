@@ -1,0 +1,161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Andres\\PosApi\\PosApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C60BDB82-E8EA-49CF-A4CC-95231091CC3C}|POS.Application\\POS.Application.csproj|c:\\andres\\posapi\\posapi\\pos.application\\dtos\\user\\response\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C60BDB82-E8EA-49CF-A4CC-95231091CC3C}|POS.Application\\POS.Application.csproj|solutionrelative:pos.application\\dtos\\user\\response\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C60BDB82-E8EA-49CF-A4CC-95231091CC3C}|POS.Application\\POS.Application.csproj|c:\\andres\\posapi\\posapi\\pos.application\\dtos\\user\\response\\userselectresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C60BDB82-E8EA-49CF-A4CC-95231091CC3C}|POS.Application\\POS.Application.csproj|solutionrelative:pos.application\\dtos\\user\\response\\userselectresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C60BDB82-E8EA-49CF-A4CC-95231091CC3C}|POS.Application\\POS.Application.csproj|c:\\andres\\posapi\\posapi\\pos.application\\dtos\\user\\request\\userrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C60BDB82-E8EA-49CF-A4CC-95231091CC3C}|POS.Application\\POS.Application.csproj|solutionrelative:pos.application\\dtos\\user\\request\\userrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C60BDB82-E8EA-49CF-A4CC-95231091CC3C}|POS.Application\\POS.Application.csproj|c:\\andres\\posapi\\posapi\\pos.application\\dtos\\user\\request\\tokenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C60BDB82-E8EA-49CF-A4CC-95231091CC3C}|POS.Application\\POS.Application.csproj|solutionrelative:pos.application\\dtos\\user\\request\\tokenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5C4281E-05F5-4F6F-BB14-9FE768049EF2}|POS.API\\POS.API.csproj|c:\\andres\\posapi\\posapi\\pos.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5C4281E-05F5-4F6F-BB14-9FE768049EF2}|POS.API\\POS.API.csproj|solutionrelative:pos.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5C4281E-05F5-4F6F-BB14-9FE768049EF2}|POS.API\\POS.API.csproj|c:\\andres\\posapi\\posapi\\pos.api\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5C4281E-05F5-4F6F-BB14-9FE768049EF2}|POS.API\\POS.API.csproj|solutionrelative:pos.api\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C60BDB82-E8EA-49CF-A4CC-95231091CC3C}|POS.Application\\POS.Application.csproj|c:\\andres\\posapi\\posapi\\pos.application\\services\\userapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C60BDB82-E8EA-49CF-A4CC-95231091CC3C}|POS.Application\\POS.Application.csproj|solutionrelative:pos.application\\services\\userapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5C4281E-05F5-4F6F-BB14-9FE768049EF2}|POS.API\\POS.API.csproj|c:\\andres\\posapi\\posapi\\pos.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A5C4281E-05F5-4F6F-BB14-9FE768049EF2}|POS.API\\POS.API.csproj|solutionrelative:pos.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserSelectResponseDto.cs",
+              "DocumentMoniker": "C:\\Andres\\PosApi\\PosApi\\POS.Application\\Dtos\\User\\Response\\UserSelectResponseDto.cs",
+              "RelativeDocumentMoniker": "POS.Application\\Dtos\\User\\Response\\UserSelectResponseDto.cs",
+              "ToolTip": "C:\\Andres\\PosApi\\PosApi\\POS.Application\\Dtos\\User\\Response\\UserSelectResponseDto.cs",
+              "RelativeToolTip": "POS.Application\\Dtos\\User\\Response\\UserSelectResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T23:11:08.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRequestDto.cs",
+              "DocumentMoniker": "C:\\Andres\\PosApi\\PosApi\\POS.Application\\Dtos\\User\\Request\\UserRequestDto.cs",
+              "RelativeDocumentMoniker": "POS.Application\\Dtos\\User\\Request\\UserRequestDto.cs",
+              "ToolTip": "C:\\Andres\\PosApi\\PosApi\\POS.Application\\Dtos\\User\\Request\\UserRequestDto.cs",
+              "RelativeToolTip": "POS.Application\\Dtos\\User\\Request\\UserRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T23:10:52.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenRequestDto.cs",
+              "DocumentMoniker": "C:\\Andres\\PosApi\\PosApi\\POS.Application\\Dtos\\User\\Request\\TokenRequestDto.cs",
+              "RelativeDocumentMoniker": "POS.Application\\Dtos\\User\\Request\\TokenRequestDto.cs",
+              "ToolTip": "C:\\Andres\\PosApi\\PosApi\\POS.Application\\Dtos\\User\\Request\\TokenRequestDto.cs",
+              "RelativeToolTip": "POS.Application\\Dtos\\User\\Request\\TokenRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T23:10:51.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserResponseDto.cs",
+              "DocumentMoniker": "C:\\Andres\\PosApi\\PosApi\\POS.Application\\Dtos\\User\\Response\\UserResponseDto.cs",
+              "RelativeDocumentMoniker": "POS.Application\\Dtos\\User\\Response\\UserResponseDto.cs",
+              "ToolTip": "C:\\Andres\\PosApi\\PosApi\\POS.Application\\Dtos\\User\\Response\\UserResponseDto.cs",
+              "RelativeToolTip": "POS.Application\\Dtos\\User\\Response\\UserResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T23:10:48.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Andres\\PosApi\\PosApi\\POS.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "POS.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Andres\\PosApi\\PosApi\\POS.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "POS.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwCcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T01:27:16.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonaController.cs",
+              "DocumentMoniker": "C:\\Andres\\PosApi\\PosApi\\POS.API\\Controllers\\PersonaController.cs",
+              "RelativeDocumentMoniker": "POS.API\\Controllers\\PersonaController.cs",
+              "ToolTip": "C:\\Andres\\PosApi\\PosApi\\POS.API\\Controllers\\PersonaController.cs",
+              "RelativeToolTip": "POS.API\\Controllers\\PersonaController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowD4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T01:56:06.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserApplication.cs",
+              "DocumentMoniker": "C:\\Andres\\PosApi\\PosApi\\POS.Application\\Services\\UserApplication.cs",
+              "RelativeDocumentMoniker": "POS.Application\\Services\\UserApplication.cs",
+              "ToolTip": "C:\\Andres\\PosApi\\PosApi\\POS.Application\\Services\\UserApplication.cs",
+              "RelativeToolTip": "POS.Application\\Services\\UserApplication.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAnwD0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T18:17:37.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Andres\\PosApi\\PosApi\\POS.API\\appsettings.json",
+              "RelativeDocumentMoniker": "POS.API\\appsettings.json",
+              "ToolTip": "C:\\Andres\\PosApi\\PosApi\\POS.API\\appsettings.json",
+              "RelativeToolTip": "POS.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-25T16:59:05.185Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
