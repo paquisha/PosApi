@@ -1,7 +1,7 @@
 {
-  "POS.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Andres\\PosApi\\POS.API",
-  "POS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Andres\\PosApi\\POS.Application",
-  "POS.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Andres\\PosApi\\POS.Domain",
-  "POS.Infraestructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Andres\\PosApi\\POS.Infraestructure",
-  "POS.Utilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Andres\\PosApi\\POS.Utilities"
+  "POS.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Andres\\PosApi\\PosApi\\POS.API",
+  "POS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Andres\\PosApi\\PosApi\\POS.Application",
+  "POS.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Andres\\PosApi\\PosApi\\POS.Domain",
+  "POS.Infraestructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Andres\\PosApi\\PosApi\\POS.Infraestructure",
+  "POS.Utilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Andres\\PosApi\\PosApi\\POS.Utilities"
 }

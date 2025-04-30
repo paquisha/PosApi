@@ -13,11 +13,11 @@ namespace POS.Infraestructure.Persistences.Contexts.Configuration
                 .HasColumnName("UserId");
 
             builder.Property(propertyExpression: e => e.Email).IsUnicode(unicode: false);
-            builder.Property(propertyExpression: e => e.Image).IsUnicode(unicode: false);
+            //builder.Property(propertyExpression: e => e.Image).IsUnicode(unicode: false);
             builder.Property(propertyExpression: e => e.Password).IsUnicode(unicode: false);
-            builder.Property(propertyExpression: e => e.UserName)
-                .HasMaxLength(maxLength: 50)
-                .IsUnicode(unicode: false);
+            //builder.Property(propertyExpression: e => e.UserName)
+            //    .HasMaxLength(maxLength: 50)
+            //    .IsUnicode(unicode: false);
         }
     }
 }

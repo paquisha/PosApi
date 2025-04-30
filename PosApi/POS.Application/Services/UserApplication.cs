@@ -94,7 +94,7 @@ namespace POS.Application.Services
             var claims = new List<Claim>
             {
                 new Claim(JwtRegisteredClaimNames.NameId, user.Email!),
-                new Claim(JwtRegisteredClaimNames.FamilyName, user.UserName!),
+                //new Claim(JwtRegisteredClaimNames.FamilyName, user.UserName!),
                 new Claim(JwtRegisteredClaimNames.GivenName, user.Email!),
                 new Claim(JwtRegisteredClaimNames.UniqueName, user.Id.ToString()),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),

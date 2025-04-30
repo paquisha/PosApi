@@ -8,7 +8,8 @@ namespace POS.Infraestructure.Persistences.Contexts.Configuration
     {
         public void Configure(EntityTypeBuilder<Role> builder)
         {
-            builder.HasKey(keyExpression: e => e.RoleId).HasName(name: "PK__Roles");
+            builder.HasKey(keyExpression: e => e.Id).HasName(name: "PK__Roles");
+            builder.Property(e => e.Id).HasColumnName("RoleId");
 
             builder.Property(propertyExpression: e => e.Description)
                 .HasMaxLength(maxLength: 50)

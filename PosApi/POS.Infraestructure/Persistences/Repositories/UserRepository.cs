@@ -18,7 +18,7 @@ namespace POS.Infraestructure.Persistences.Repositories
             try
             {
                 var account = await _context.Users.AsNoTracking()
-                    .FirstOrDefaultAsync(x => x.UserName!.Equals(userName));
+                    .FirstOrDefaultAsync(x => x.Email!.Equals(userName));
                 return account!;
             }
             catch (Exception ex)
