@@ -56,10 +56,8 @@ namespace POS.Domain.Entities
         [StringLength(25)]
         public string SecondaryColor { get; set; }
 
-        // Constructor
         public Company()
         {
-            // Inicializa propiedades requeridas
             Name = string.Empty;
             Address = string.Empty;
             Manager = string.Empty;
