@@ -13,11 +13,24 @@ namespace POS.Infraestructure.Persistences.Contexts.Configuration
     {
         public void Configure(EntityTypeBuilder<Specialist> builder)
         {
+            builder.ToTable("Specialists");
+
             builder.HasKey(keyExpression: e => e.Id);
             builder.Property(e => e.Id).HasColumnName("SpecialistId");
 
-            builder.Property(propertyExpression: e => e.MedicId).IsUnicode(unicode: false);
-            //builder.Property(propertyExpression: e => e.Image).IsUnicode(unicode: false);
+            builder.HasIndex(e => new { e.MedicId, e.MedicalSpecialtyId })
+                .IsUnique()
+                .HasDatabaseName("IX_Specialist_Medic_MedicalSpecialty");
+
+            builder.HasOne(e => e.Medic)
+               .WithMany(m => m.Specialists)
+               .HasForeignKey(e => e.MedicId)
+               .OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasOne(e => e.MedicalSpecialty)
+               .WithMany(s => s.Specialists)
+               .HasForeignKey(e => e.MedicalSpecialtyId)
+               .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

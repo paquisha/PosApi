@@ -8,15 +8,9 @@ using System.Threading.Tasks;
 
 namespace POS.Domain.Entities
 {
-    [Table("Specialists")]
     public class Specialist : BaseEntity
     {
-        [Required]
-        [ForeignKey("Medic")]
         public int MedicId { get; set; }
-
-        [Required]
-        [ForeignKey("MedicalSpecialty")]
         public int MedicalSpecialtyId { get; set; }
 
         public virtual Medic? Medic { get; set; }

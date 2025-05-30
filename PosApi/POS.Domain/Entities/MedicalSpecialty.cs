@@ -8,14 +8,9 @@ using System.Threading.Tasks;
 
 namespace POS.Domain.Entities
 {
-    [Table("MedicalSpecialties")]
     public class MedicalSpecialty : BaseEntity
     {
-        [Required]
-        [StringLength(75)]
         public string Name { get; set; }
-
-        [StringLength(150)]
         public string Description { get; set; }
 
         // Propiedad de navegación para la relación con Medic

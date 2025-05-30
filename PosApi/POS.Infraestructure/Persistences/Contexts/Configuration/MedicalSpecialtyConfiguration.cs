@@ -13,10 +13,19 @@ namespace POS.Infraestructure.Persistences.Contexts.Configuration
     {
         public void Configure(EntityTypeBuilder<MedicalSpecialty> builder)
         {
+            builder.ToTable("MedicalSpecialties");
+
             builder.HasKey(keyExpression: e => e.Id);
             builder.Property(e => e.Id).HasColumnName("MedicalRecordId");
 
-            builder.Property(propertyExpression: e => e.Name).IsUnicode(unicode: false);
+            builder.Property(propertyExpression: e => e.Name)
+                .IsRequired()
+                .HasMaxLength(75)
+                .IsUnicode(unicode: false);
+
+            builder.Property(propertyExpression: e => e.Description)
+                .HasMaxLength(150)
+                .IsUnicode(unicode: false);
             //builder.Property(propertyExpression: e => e.Image).IsUnicode(unicode: false);
         }
     }
