@@ -8,37 +8,20 @@ using System.Threading.Tasks;
 
 namespace POS.Domain.Entities
 {
-    [Table("Cros")]
     public class Cros : BaseEntity
     {
-        [Required]
-        [ForeignKey("MedicalRecord")]
-        public int MedicalRecordId { get; set; }
-
         public bool SenseOrgans { get; set; } = false;
-
         public bool Respiratory { get; set; } = false;
-
         public bool Cardiovascular { get; set; } = false;
-
         public bool Digestive { get; set; } = false;
-
         public bool Genital { get; set; } = false;
-
         public bool Urinary { get; set; } = false;
-
         public bool SkeletalMuscle { get; set; } = false;
-
         public bool Endocrine { get; set; } = false;
-
         public bool LymphaticHeme { get; set; } = false;
-
         public bool Nervous { get; set; } = false;
-
-        [Column(TypeName = "nvarchar(MAX)")] // Equivalente a text en SQL Server
         public string? Observations { get; set; }
-
-        // Propiedad de navegación
+        public int MedicalRecordId { get; set; }
         public virtual MedicalRecord? MedicalRecord { get; set; }
     }
 }

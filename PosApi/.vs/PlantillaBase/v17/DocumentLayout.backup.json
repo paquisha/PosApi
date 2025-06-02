@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "POS.Infraestructure\\Persistences\\Contexts\\Configuration\\MedicalSpecialtyConfiguration.cs",
               "ToolTip": "C:\\Andres\\PosApi\\PosApi\\POS.Infraestructure\\Persistences\\Contexts\\Configuration\\MedicalSpecialtyConfiguration.cs",
               "RelativeToolTip": "POS.Infraestructure\\Persistences\\Contexts\\Configuration\\MedicalSpecialtyConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T03:23:33.342Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "POS.Infraestructure\\Persistences\\Contexts\\Configuration\\MedicConfiguration.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:49:30.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T02:49:30.657Z"
             }
           ]
         },
@@ -99,8 +98,7 @@
               "RelativeToolTip": "POS.Domain\\Entities\\Specialist.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T02:07:44.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T02:07:44.444Z"
             },
             {
               "$type": "Document",
@@ -112,8 +110,7 @@
               "RelativeToolTip": "POS.Infraestructure\\Persistences\\Contexts\\PosContext.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAuwGUBAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:02:36.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T04:02:36.327Z"
             },
             {
               "$type": "Document",
@@ -125,8 +122,7 @@
               "RelativeToolTip": "POS.Domain\\Entities\\Medic.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:49:39.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T02:49:39.649Z"
             }
           ]
         }

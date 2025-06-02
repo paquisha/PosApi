@@ -13,11 +13,25 @@ namespace POS.Infraestructure.Persistences.Contexts.Configuration
     {
         public void Configure(EntityTypeBuilder<Cros> builder)
         {
+            builder.ToTable("Cros");
             builder.HasKey(keyExpression: e => e.Id);
             builder.Property(e => e.Id).HasColumnName("CrosId");
-
-            builder.Property(propertyExpression: e => e.Observations).IsUnicode(unicode: false);
-            //builder.Property(propertyExpression: e => e.Image).IsUnicode(unicode: false);
+            builder.Property(e => e.SenseOrgans).HasDefaultValue(false);
+            builder.Property(e => e.Respiratory).HasDefaultValue(false);
+            builder.Property(e => e.Cardiovascular).HasDefaultValue(false);
+            builder.Property(e => e.Digestive).HasDefaultValue(false);
+            builder.Property(e => e.Genital).HasDefaultValue(false);
+            builder.Property(e => e.Urinary).HasDefaultValue(false);
+            builder.Property(e => e.SkeletalMuscle).HasDefaultValue(false);
+            builder.Property(e => e.Endocrine).HasDefaultValue(false);
+            builder.Property(e => e.LymphaticHeme).HasDefaultValue(false);
+            builder.Property(e => e.Nervous).HasDefaultValue(false);
+            builder.Property(e => e.Observations).HasColumnType("varchar(MAX)");
+            builder
+                .HasOne(c => c.MedicalRecord)
+                .WithOne(m => m.Cros)
+                .HasForeignKey<Cros>(fk => fk.MedicalRecordId)
+                .OnDelete(deleteBehavior: DeleteBehavior.Cascade);
         }
     }
 }

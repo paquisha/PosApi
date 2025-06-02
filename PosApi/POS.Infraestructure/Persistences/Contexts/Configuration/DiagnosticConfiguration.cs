@@ -13,11 +13,24 @@ namespace POS.Infraestructure.Persistences.Contexts.Configuration
     {
         public void Configure(EntityTypeBuilder<Diagnostic> builder)
         {
+            builder.ToTable("Diagnostics");
             builder.HasKey(keyExpression: e => e.Id);
             builder.Property(e => e.Id).HasColumnName("DiagnosticId");
-
-            //builder.Property(propertyExpression: e => e.).IsUnicode(unicode: false);
-            //builder.Property(propertyExpression: e => e.Image).IsUnicode(unicode: false);
+            
+            builder.HasIndex(e => new { e.MedicalRecordId, e.DiseaseId })
+                .IsUnique()
+                .HasDatabaseName("uniqueDiagnosticCombination");
+            
+            builder.HasOne(d => d.MedicalRecord)
+                .WithMany(m => m.Diagnostics)
+                .HasForeignKey(d => d.MedicalRecordId)
+                .IsRequired()
+                .OnDelete(DeleteBehavior.Cascade);
+            
+            builder.HasOne(d => d.Disease)
+                .WithMany(m => m.Diagnostics)
+                .HasForeignKey(d => d.DiseaseId)
+                .IsRequired();
         }
     }
 }
