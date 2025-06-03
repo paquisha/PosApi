@@ -14,14 +14,9 @@ namespace POS.Domain.Entities
         public string Name { get; set; }
         public string? Description { get; set; }
         public string? Actions { get; set; }
-
-        [Required]
-        [ForeignKey("DiseaseType")]
         public int DiseaseTypeId { get; set; }
         public virtual DiseaseType? DiseaseType { get; set; }
         public virtual ICollection<Diagnostic> Diagnostics { get; set; } = new List<Diagnostic>();
-
-        [InverseProperty("Diseases")]
         public virtual ICollection<MedicalRecord> MedicalRecords { get; set; } = new List<MedicalRecord>();
     }
 }

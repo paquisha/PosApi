@@ -17,12 +17,28 @@ namespace POS.Infraestructure.Persistences.Contexts.Configuration
             builder.HasKey(keyExpression: e => e.Id);
             builder.Property(e => e.Id).HasColumnName("DiseaseId");
 
-            builder.Property(propertyExpression: e => e.Code).HasMaxLength(10).IsUnicode(unicode: false);;
+            builder.Property(propertyExpression: e => e.Code).HasMaxLength(10).IsUnicode(unicode: false);
+
             builder.Property(propertyExpression: e => e.Name)
                 .IsRequired()
                 .HasColumnType("varchar(MAX)");
+
             builder.Property(propertyExpression: e => e.Description).HasColumnType("varchar(MAX)");
+
             builder.Property(propertyExpression: e => e.Actions).HasColumnType("varchar(MAX)");
+
+            builder.HasMany(d => d.Diagnostics)
+                .WithOne()
+                .HasForeignKey(di => di.DiseaseId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasMany(d => d.MedicalRecords)
+                .WithMany(mr => mr.Diseases)
+                .UsingEntity<Dictionary<string, object>>(
+                    "DiseaseMedicalRecords",
+                    j => j.HasOne<MedicalRecord>().WithMany().HasForeignKey("MedicalRecordId"),
+                    j => j.HasOne<Disease>().WithMany().HasForeignKey("DiseaseId"),
+                    j => j.ToTable("DiseaseMedicalRecords"));
         }
     }
 }

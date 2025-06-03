@@ -8,11 +8,8 @@ using System.Threading.Tasks;
 
 namespace POS.Domain.Entities
 {
-    [Table("Exams")]
     public class Exam : BaseEntity
     {
-        [Required]
-        [StringLength(100)]
         public string Name { get; set; }
 
         [Required]

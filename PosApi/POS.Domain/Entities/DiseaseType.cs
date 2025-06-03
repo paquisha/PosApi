@@ -8,11 +8,8 @@ using System.Threading.Tasks;
 
 namespace POS.Domain.Entities
 {
-    [Table("DiseaseTypes")]
     public class DiseaseType : BaseEntity
     {
-        [Required]
-        [StringLength(100)]
         public string Name { get; set; }
 
         // Relación uno-a-muchos con Disease
