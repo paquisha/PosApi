@@ -1,40 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Andres\\c#\\PosApi\\PosApi\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{ABFF9519-0265-490B-8F7F-D2620920B501}|POS.Domain\\POS.Domain.csproj|c:\\andres\\c#\\posapi\\posapi\\pos.domain\\entities\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABFF9519-0265-490B-8F7F-D2620920B501}|POS.Domain\\POS.Domain.csproj|solutionrelative:pos.domain\\entities\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E26A345-46CE-4D4C-A7D3-0D730443DE35}|POS.Infraestructure\\POS.Infraestructure.csproj|c:\\andres\\c#\\posapi\\posapi\\pos.infraestructure\\persistences\\contexts\\configuration\\examconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E26A345-46CE-4D4C-A7D3-0D730443DE35}|POS.Infraestructure\\POS.Infraestructure.csproj|solutionrelative:pos.infraestructure\\persistences\\contexts\\configuration\\examconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E26A345-46CE-4D4C-A7D3-0D730443DE35}|POS.Infraestructure\\POS.Infraestructure.csproj|c:\\andres\\c#\\posapi\\posapi\\pos.infraestructure\\persistences\\contexts\\configuration\\diseaseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E26A345-46CE-4D4C-A7D3-0D730443DE35}|POS.Infraestructure\\POS.Infraestructure.csproj|solutionrelative:pos.infraestructure\\persistences\\contexts\\configuration\\diseaseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABFF9519-0265-490B-8F7F-D2620920B501}|POS.Domain\\POS.Domain.csproj|c:\\andres\\c#\\posapi\\posapi\\pos.domain\\entities\\examtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABFF9519-0265-490B-8F7F-D2620920B501}|POS.Domain\\POS.Domain.csproj|solutionrelative:pos.domain\\entities\\examtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E26A345-46CE-4D4C-A7D3-0D730443DE35}|POS.Infraestructure\\POS.Infraestructure.csproj|c:\\andres\\c#\\posapi\\posapi\\pos.infraestructure\\persistences\\contexts\\configuration\\diseasetypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E26A345-46CE-4D4C-A7D3-0D730443DE35}|POS.Infraestructure\\POS.Infraestructure.csproj|solutionrelative:pos.infraestructure\\persistences\\contexts\\configuration\\diseasetypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABFF9519-0265-490B-8F7F-D2620920B501}|POS.Domain\\POS.Domain.csproj|c:\\andres\\c#\\posapi\\posapi\\pos.domain\\entities\\disease.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABFF9519-0265-490B-8F7F-D2620920B501}|POS.Domain\\POS.Domain.csproj|solutionrelative:pos.domain\\entities\\disease.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E26A345-46CE-4D4C-A7D3-0D730443DE35}|POS.Infraestructure\\POS.Infraestructure.csproj|c:\\andres\\c#\\posapi\\posapi\\pos.infraestructure\\persistences\\contexts\\configuration\\diagnosticconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E26A345-46CE-4D4C-A7D3-0D730443DE35}|POS.Infraestructure\\POS.Infraestructure.csproj|solutionrelative:pos.infraestructure\\persistences\\contexts\\configuration\\diagnosticconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABFF9519-0265-490B-8F7F-D2620920B501}|POS.Domain\\POS.Domain.csproj|c:\\andres\\c#\\posapi\\posapi\\pos.domain\\entities\\diseasetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABFF9519-0265-490B-8F7F-D2620920B501}|POS.Domain\\POS.Domain.csproj|solutionrelative:pos.domain\\entities\\diseasetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -42,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 215,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -117,111 +84,8 @@
               "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DiseaseConfiguration.cs",
-              "DocumentMoniker": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Infraestructure\\Persistences\\Contexts\\Configuration\\DiseaseConfiguration.cs",
-              "RelativeDocumentMoniker": "POS.Infraestructure\\Persistences\\Contexts\\Configuration\\DiseaseConfiguration.cs",
-              "ToolTip": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Infraestructure\\Persistences\\Contexts\\Configuration\\DiseaseConfiguration.cs",
-              "RelativeToolTip": "POS.Infraestructure\\Persistences\\Contexts\\Configuration\\DiseaseConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:40:51.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExamConfiguration.cs",
-              "DocumentMoniker": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Infraestructure\\Persistences\\Contexts\\Configuration\\ExamConfiguration.cs",
-              "RelativeDocumentMoniker": "POS.Infraestructure\\Persistences\\Contexts\\Configuration\\ExamConfiguration.cs",
-              "ToolTip": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Infraestructure\\Persistences\\Contexts\\Configuration\\ExamConfiguration.cs",
-              "RelativeToolTip": "POS.Infraestructure\\Persistences\\Contexts\\Configuration\\ExamConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxEAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T16:42:34.674Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 185,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ExamType.cs",
-              "DocumentMoniker": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Domain\\Entities\\ExamType.cs",
-              "RelativeDocumentMoniker": "POS.Domain\\Entities\\ExamType.cs",
-              "ToolTip": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Domain\\Entities\\ExamType.cs",
-              "RelativeToolTip": "POS.Domain\\Entities\\ExamType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T21:19:48.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DiseaseTypeConfiguration.cs",
-              "DocumentMoniker": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Infraestructure\\Persistences\\Contexts\\Configuration\\DiseaseTypeConfiguration.cs",
-              "RelativeDocumentMoniker": "POS.Infraestructure\\Persistences\\Contexts\\Configuration\\DiseaseTypeConfiguration.cs",
-              "ToolTip": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Infraestructure\\Persistences\\Contexts\\Configuration\\DiseaseTypeConfiguration.cs",
-              "RelativeToolTip": "POS.Infraestructure\\Persistences\\Contexts\\Configuration\\DiseaseTypeConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvx4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T17:05:27.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Exam.cs",
-              "DocumentMoniker": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Domain\\Entities\\Exam.cs",
-              "RelativeDocumentMoniker": "POS.Domain\\Entities\\Exam.cs",
-              "ToolTip": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Domain\\Entities\\Exam.cs",
-              "RelativeToolTip": "POS.Domain\\Entities\\Exam.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T16:42:29.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DiseaseType.cs",
-              "DocumentMoniker": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Domain\\Entities\\DiseaseType.cs",
-              "RelativeDocumentMoniker": "POS.Domain\\Entities\\DiseaseType.cs",
-              "ToolTip": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Domain\\Entities\\DiseaseType.cs",
-              "RelativeToolTip": "POS.Domain\\Entities\\DiseaseType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T15:29:08.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DiagnosticConfiguration.cs",
-              "DocumentMoniker": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Infraestructure\\Persistences\\Contexts\\Configuration\\DiagnosticConfiguration.cs",
-              "RelativeDocumentMoniker": "POS.Infraestructure\\Persistences\\Contexts\\Configuration\\DiagnosticConfiguration.cs",
-              "ToolTip": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Infraestructure\\Persistences\\Contexts\\Configuration\\DiagnosticConfiguration.cs",
-              "RelativeToolTip": "POS.Infraestructure\\Persistences\\Contexts\\Configuration\\DiagnosticConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T15:29:21.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Disease.cs",
-              "DocumentMoniker": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Domain\\Entities\\Disease.cs",
-              "RelativeDocumentMoniker": "POS.Domain\\Entities\\Disease.cs",
-              "ToolTip": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Domain\\Entities\\Disease.cs",
-              "RelativeToolTip": "POS.Domain\\Entities\\Disease.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:41:01.579Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
