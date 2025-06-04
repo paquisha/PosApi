@@ -13,11 +13,10 @@ namespace POS.Infraestructure.Persistences.Contexts.Configuration
     {
         public void Configure(EntityTypeBuilder<ExamType> builder)
         {
+            builder.ToTable("ExamTypes");
             builder.HasKey(keyExpression: e => e.Id);
             builder.Property(e => e.Id).HasColumnName("ExamTypeId");
-
-            builder.Property(propertyExpression: e => e.Name).IsUnicode(unicode: false);
-            //builder.Property(propertyExpression: e => e.Image).IsUnicode(unicode: false);
+            builder.Property(propertyExpression: e => e.Name).IsRequired().HasMaxLength(50);
         }
     }
 }

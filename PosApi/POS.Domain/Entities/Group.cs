@@ -8,11 +8,8 @@ using System.Threading.Tasks;
 
 namespace POS.Domain.Entities
 {
-    [Table("tgroup")]
     public class Group : BaseEntity
     {
-        [Required]
-        [StringLength(30)]
         public string Name { get; set; }
         public virtual ICollection<Option> Options { get; set; }
         public Group()

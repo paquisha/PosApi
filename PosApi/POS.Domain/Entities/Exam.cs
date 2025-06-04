@@ -11,18 +11,10 @@ namespace POS.Domain.Entities
     public class Exam : BaseEntity
     {
         public string Name { get; set; }
-
-        [Required]
-        [ForeignKey("ExamType")]
         public int ExamTypeId { get; set; }
         public virtual ExamType? ExamType { get; set; }
-        [InverseProperty("Exam")]
         public virtual ICollection<MedicalExam> MedicalExams { get; set; } = new List<MedicalExam>();
-
-        [InverseProperty("Exams")]
         public virtual ICollection<MedicalRecord> MedicalRecords { get; set; } = new List<MedicalRecord>();
-
-
         public Exam()
         {
             Name = string.Empty;

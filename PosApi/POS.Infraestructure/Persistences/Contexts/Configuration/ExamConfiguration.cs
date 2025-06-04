@@ -16,11 +16,16 @@ namespace POS.Infraestructure.Persistences.Contexts.Configuration
             builder.ToTable("Exams");
             builder.HasKey(keyExpression: e => e.Id);
             builder.Property(e => e.Id).HasColumnName("ExamId");
-
             builder.Property(propertyExpression: e => e.Name)
                 .IsRequired()
                 .HasMaxLength(100);
-            //builder.Property(propertyExpression: e => e.Image).IsUnicode(unicode: false);
+            builder.Property(e => e.ExamTypeId)
+                .IsRequired();
+            // Configuración de la relación con ExamType
+            builder.HasOne(e => e.ExamType)
+                .WithMany(et => et.Exams)
+                .HasForeignKey(e => e.ExamTypeId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }
