@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Andres\\c#\\PosApi\\PosApi\\POS.API\\POS.API.csproj": {}
+    "C:\\Andres\\PosApi\\PosApi\\POS.API\\POS.API.csproj": {}
   },
   "projects": {
-    "C:\\Andres\\c#\\PosApi\\PosApi\\POS.API\\POS.API.csproj": {
+    "C:\\Andres\\PosApi\\PosApi\\POS.API\\POS.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.API\\POS.API.csproj",
+        "projectUniqueName": "C:\\Andres\\PosApi\\PosApi\\POS.API\\POS.API.csproj",
         "projectName": "POS.API",
-        "projectPath": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.API\\POS.API.csproj",
-        "packagesPath": "C:\\Users\\aprogramador12\\.nuget\\packages\\",
-        "outputPath": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.API\\obj\\",
+        "projectPath": "C:\\Andres\\PosApi\\PosApi\\POS.API\\POS.API.csproj",
+        "packagesPath": "C:\\Users\\Amaru\\.nuget\\packages\\",
+        "outputPath": "C:\\Andres\\PosApi\\PosApi\\POS.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aprogramador12\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Amaru\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,20 +26,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Application\\POS.Application.csproj": {
-                "projectPath": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Application\\POS.Application.csproj"
+              "C:\\Andres\\PosApi\\PosApi\\POS.Application\\POS.Application.csproj": {
+                "projectPath": "C:\\Andres\\PosApi\\PosApi\\POS.Application\\POS.Application.csproj"
               },
-              "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Infraestructure\\POS.Infraestructure.csproj": {
-                "projectPath": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Infraestructure\\POS.Infraestructure.csproj"
+              "C:\\Andres\\PosApi\\PosApi\\POS.Infraestructure\\POS.Infraestructure.csproj": {
+                "projectPath": "C:\\Andres\\PosApi\\PosApi\\POS.Infraestructure\\POS.Infraestructure.csproj"
               },
-              "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Utilities\\POS.Utilities.csproj": {
-                "projectPath": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Utilities\\POS.Utilities.csproj"
+              "C:\\Andres\\PosApi\\PosApi\\POS.Utilities\\POS.Utilities.csproj": {
+                "projectPath": "C:\\Andres\\PosApi\\PosApi\\POS.Utilities\\POS.Utilities.csproj"
               }
             }
           }
@@ -55,7 +55,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -107,25 +107,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Application\\POS.Application.csproj": {
+    "C:\\Andres\\PosApi\\PosApi\\POS.Application\\POS.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Application\\POS.Application.csproj",
+        "projectUniqueName": "C:\\Andres\\PosApi\\PosApi\\POS.Application\\POS.Application.csproj",
         "projectName": "POS.Application",
-        "projectPath": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Application\\POS.Application.csproj",
-        "packagesPath": "C:\\Users\\aprogramador12\\.nuget\\packages\\",
-        "outputPath": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Application\\obj\\",
+        "projectPath": "C:\\Andres\\PosApi\\PosApi\\POS.Application\\POS.Application.csproj",
+        "packagesPath": "C:\\Users\\Amaru\\.nuget\\packages\\",
+        "outputPath": "C:\\Andres\\PosApi\\PosApi\\POS.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aprogramador12\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Amaru\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -134,20 +133,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Domain\\POS.Domain.csproj": {
-                "projectPath": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Domain\\POS.Domain.csproj"
+              "C:\\Andres\\PosApi\\PosApi\\POS.Domain\\POS.Domain.csproj": {
+                "projectPath": "C:\\Andres\\PosApi\\PosApi\\POS.Domain\\POS.Domain.csproj"
               },
-              "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Infraestructure\\POS.Infraestructure.csproj": {
-                "projectPath": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Infraestructure\\POS.Infraestructure.csproj"
+              "C:\\Andres\\PosApi\\PosApi\\POS.Infraestructure\\POS.Infraestructure.csproj": {
+                "projectPath": "C:\\Andres\\PosApi\\PosApi\\POS.Infraestructure\\POS.Infraestructure.csproj"
               },
-              "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Utilities\\POS.Utilities.csproj": {
-                "projectPath": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Utilities\\POS.Utilities.csproj"
+              "C:\\Andres\\PosApi\\PosApi\\POS.Utilities\\POS.Utilities.csproj": {
+                "projectPath": "C:\\Andres\\PosApi\\PosApi\\POS.Utilities\\POS.Utilities.csproj"
               }
             }
           }
@@ -162,7 +162,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -213,25 +213,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Domain\\POS.Domain.csproj": {
+    "C:\\Andres\\PosApi\\PosApi\\POS.Domain\\POS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Domain\\POS.Domain.csproj",
+        "projectUniqueName": "C:\\Andres\\PosApi\\PosApi\\POS.Domain\\POS.Domain.csproj",
         "projectName": "POS.Domain",
-        "projectPath": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Domain\\POS.Domain.csproj",
-        "packagesPath": "C:\\Users\\aprogramador12\\.nuget\\packages\\",
-        "outputPath": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Domain\\obj\\",
+        "projectPath": "C:\\Andres\\PosApi\\PosApi\\POS.Domain\\POS.Domain.csproj",
+        "packagesPath": "C:\\Users\\Amaru\\.nuget\\packages\\",
+        "outputPath": "C:\\Andres\\PosApi\\PosApi\\POS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aprogramador12\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Amaru\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -240,6 +239,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -258,7 +258,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -299,25 +299,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Infraestructure\\POS.Infraestructure.csproj": {
+    "C:\\Andres\\PosApi\\PosApi\\POS.Infraestructure\\POS.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Infraestructure\\POS.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Andres\\PosApi\\PosApi\\POS.Infraestructure\\POS.Infraestructure.csproj",
         "projectName": "POS.Infraestructure",
-        "projectPath": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Infraestructure\\POS.Infraestructure.csproj",
-        "packagesPath": "C:\\Users\\aprogramador12\\.nuget\\packages\\",
-        "outputPath": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Infraestructure\\obj\\",
+        "projectPath": "C:\\Andres\\PosApi\\PosApi\\POS.Infraestructure\\POS.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\Amaru\\.nuget\\packages\\",
+        "outputPath": "C:\\Andres\\PosApi\\PosApi\\POS.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aprogramador12\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Amaru\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -326,17 +325,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Domain\\POS.Domain.csproj": {
-                "projectPath": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Domain\\POS.Domain.csproj"
+              "C:\\Andres\\PosApi\\PosApi\\POS.Domain\\POS.Domain.csproj": {
+                "projectPath": "C:\\Andres\\PosApi\\PosApi\\POS.Domain\\POS.Domain.csproj"
               },
-              "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Utilities\\POS.Utilities.csproj": {
-                "projectPath": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Utilities\\POS.Utilities.csproj"
+              "C:\\Andres\\PosApi\\PosApi\\POS.Utilities\\POS.Utilities.csproj": {
+                "projectPath": "C:\\Andres\\PosApi\\PosApi\\POS.Utilities\\POS.Utilities.csproj"
               }
             }
           }
@@ -351,7 +351,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -378,25 +378,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Utilities\\POS.Utilities.csproj": {
+    "C:\\Andres\\PosApi\\PosApi\\POS.Utilities\\POS.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Utilities\\POS.Utilities.csproj",
+        "projectUniqueName": "C:\\Andres\\PosApi\\PosApi\\POS.Utilities\\POS.Utilities.csproj",
         "projectName": "POS.Utilities",
-        "projectPath": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Utilities\\POS.Utilities.csproj",
-        "packagesPath": "C:\\Users\\aprogramador12\\.nuget\\packages\\",
-        "outputPath": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Utilities\\obj\\",
+        "projectPath": "C:\\Andres\\PosApi\\PosApi\\POS.Utilities\\POS.Utilities.csproj",
+        "packagesPath": "C:\\Users\\Amaru\\.nuget\\packages\\",
+        "outputPath": "C:\\Andres\\PosApi\\PosApi\\POS.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aprogramador12\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Amaru\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -405,14 +404,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Domain\\POS.Domain.csproj": {
-                "projectPath": "C:\\Andres\\c#\\PosApi\\PosApi\\POS.Domain\\POS.Domain.csproj"
+              "C:\\Andres\\PosApi\\PosApi\\POS.Domain\\POS.Domain.csproj": {
+                "projectPath": "C:\\Andres\\PosApi\\PosApi\\POS.Domain\\POS.Domain.csproj"
               }
             }
           }
@@ -427,7 +427,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -454,7 +454,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

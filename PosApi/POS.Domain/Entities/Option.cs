@@ -10,20 +10,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace POS.Domain.Entities
 {
-    [Table("Options")]
     [Index(nameof(Name), nameof(GroupId), IsUnique = true, Name = "uniqueOptionCombination")]
     public class Option : BaseEntity
     {
-        [Required]
-        [StringLength(75)]
         public string Name { get; set; }
-
-        [Required]
-        [ForeignKey("Group")]
         public int GroupId { get; set; }
-
         public virtual Group? Group { get; set; }
-
         public Option()
         {
             Name = string.Empty;

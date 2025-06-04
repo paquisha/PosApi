@@ -13,11 +13,16 @@ namespace POS.Infraestructure.Persistences.Contexts.Configuration
     {
         public void Configure(EntityTypeBuilder<Option> builder)
         {
+            builder.ToTable("Options");
             builder.HasKey(keyExpression: e => e.Id);
             builder.Property(e => e.Id).HasColumnName("OptionId");
-
-            builder.Property(propertyExpression: e => e.Name).IsUnicode(unicode: false);
-            //builder.Property(propertyExpression: e => e.Image).IsUnicode(unicode: false);
+            builder.Property(propertyExpression: e => e.Name).IsRequired().HasMaxLength(75);
+            builder.Property(e => e.GroupId)
+                .IsRequired();
+            // Índice único compuesto
+            builder.HasIndex(o => new { o.Name, o.GroupId })
+                .IsUnique()
+                .HasDatabaseName("uniqueOptionCombination");
         }
     }
 }
